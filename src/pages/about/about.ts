@@ -26,7 +26,7 @@ pelis:Pelicula[];
     var val = ev.target.value;
     if(val&&val.trim()!=""){
       this.pelis=this.pelis.filter((item)=>{
-        return(item.titulo.toLowerCase().indexOf(val.toLowerCase())>-1);
+        return(item.categoria.toLowerCase().indexOf(val.toLowerCase())>-1);
       })
     }else{
       this.getPeliculas();

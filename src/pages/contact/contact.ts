@@ -21,10 +21,6 @@ export class ContactPage {
   }
 
   soloAccion(){
-    let alert = this.alertCtrl.create({
-      title:'Solo Accion'
-    })
-    alert.present();
     var nombrePeli: String;
 
     for(var i=0;i<this.pelis.length;i++){
@@ -40,10 +36,6 @@ export class ContactPage {
   }
 
   soloTerror(){
-    let alert = this.alertCtrl.create({
-      title:'Solo Terror'
-    })
-    alert.present();
     var nombrePeli: String;
 
     for(var i=0;i<this.pelis.length;i++){
@@ -59,10 +51,6 @@ export class ContactPage {
   }
 
   soloRomance(){
-    let alert = this.alertCtrl.create({
-      title:'Solo Romance'
-    })
-    alert.present();
     var nombrePeli: String;
 
     for(var i=0;i<this.pelis.length;i++){
@@ -78,10 +66,6 @@ export class ContactPage {
   }
 
   soloAnimada(){
-    let alert = this.alertCtrl.create({
-      title:'Solo Animadas'
-    })
-    alert.present();
     var nombrePeli: String;
 
     for(var i=0;i<this.pelis.length;i++){
